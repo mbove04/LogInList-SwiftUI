@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		75E76135246D692800E3EFA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E76134246D692800E3EFA5 /* AppDelegate.swift */; };
 		75E76137246D692800E3EFA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E76136246D692800E3EFA5 /* SceneDelegate.swift */; };
-		75E76139246D692800E3EFA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E76138246D692800E3EFA5 /* ContentView.swift */; };
 		75E7613B246D692B00E3EFA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E7613A246D692B00E3EFA5 /* Assets.xcassets */; };
 		75E7613E246D692B00E3EFA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E7613D246D692B00E3EFA5 /* Preview Assets.xcassets */; };
 		75E76141246D692B00E3EFA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E7613F246D692B00E3EFA5 /* LaunchScreen.storyboard */; };
+		75E7614B246D695400E3EFA5 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E76149246D695400E3EFA5 /* RegistrationViewController.swift */; };
+		75E76153246D69C500E3EFA5 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E7614E246D69C400E3EFA5 /* RegisterView.swift */; };
+		75E76154246D69C500E3EFA5 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E7614F246D69C400E3EFA5 /* DetailView.swift */; };
+		75E76155246D69C500E3EFA5 /* TransactionHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E76150246D69C500E3EFA5 /* TransactionHistoryView.swift */; };
+		75E7615B246D69EE00E3EFA5 /* ValidationFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E76158246D69EE00E3EFA5 /* ValidationFormView.swift */; };
+		75E7615C246D69EE00E3EFA5 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E76159246D69EE00E3EFA5 /* Transaction.swift */; };
+		75E7615D246D69EE00E3EFA5 /* SingleFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E7615A246D69EE00E3EFA5 /* SingleFormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		75E76131246D692800E3EFA5 /* LogInList-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LogInList-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E76134246D692800E3EFA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75E76136246D692800E3EFA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		75E76138246D692800E3EFA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		75E7613A246D692B00E3EFA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75E7613D246D692B00E3EFA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		75E76140246D692B00E3EFA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75E76142246D692B00E3EFA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75E76149246D695400E3EFA5 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		75E7614E246D69C400E3EFA5 /* RegisterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		75E7614F246D69C400E3EFA5 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		75E76150246D69C500E3EFA5 /* TransactionHistoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionHistoryView.swift; sourceTree = "<group>"; };
+		75E76158246D69EE00E3EFA5 /* ValidationFormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationFormView.swift; sourceTree = "<group>"; };
+		75E76159246D69EE00E3EFA5 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		75E7615A246D69EE00E3EFA5 /* SingleFormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleFormView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +68,11 @@
 		75E76133246D692800E3EFA5 /* LogInList-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				75E7615E246D879F00E3EFA5 /* Controller */,
+				75E76157246D69D200E3EFA5 /* Model */,
+				75E7614C246D69B900E3EFA5 /* View */,
 				75E76134246D692800E3EFA5 /* AppDelegate.swift */,
 				75E76136246D692800E3EFA5 /* SceneDelegate.swift */,
-				75E76138246D692800E3EFA5 /* ContentView.swift */,
 				75E7613A246D692B00E3EFA5 /* Assets.xcassets */,
 				75E7613F246D692B00E3EFA5 /* LaunchScreen.storyboard */,
 				75E76142246D692B00E3EFA5 /* Info.plist */,
@@ -73,6 +87,34 @@
 				75E7613D246D692B00E3EFA5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		75E7614C246D69B900E3EFA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75E7614F246D69C400E3EFA5 /* DetailView.swift */,
+				75E7614E246D69C400E3EFA5 /* RegisterView.swift */,
+				75E76150246D69C500E3EFA5 /* TransactionHistoryView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		75E76157246D69D200E3EFA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				75E7615A246D69EE00E3EFA5 /* SingleFormView.swift */,
+				75E76159246D69EE00E3EFA5 /* Transaction.swift */,
+				75E76158246D69EE00E3EFA5 /* ValidationFormView.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		75E7615E246D879F00E3EFA5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				75E76149246D695400E3EFA5 /* RegistrationViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +188,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75E7615C246D69EE00E3EFA5 /* Transaction.swift in Sources */,
+				75E76155246D69C500E3EFA5 /* TransactionHistoryView.swift in Sources */,
+				75E7615D246D69EE00E3EFA5 /* SingleFormView.swift in Sources */,
+				75E76154246D69C500E3EFA5 /* DetailView.swift in Sources */,
 				75E76135246D692800E3EFA5 /* AppDelegate.swift in Sources */,
+				75E76153246D69C500E3EFA5 /* RegisterView.swift in Sources */,
+				75E7615B246D69EE00E3EFA5 /* ValidationFormView.swift in Sources */,
 				75E76137246D692800E3EFA5 /* SceneDelegate.swift in Sources */,
-				75E76139246D692800E3EFA5 /* ContentView.swift in Sources */,
+				75E7614B246D695400E3EFA5 /* RegistrationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
